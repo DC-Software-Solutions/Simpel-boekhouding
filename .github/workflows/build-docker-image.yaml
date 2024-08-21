@@ -35,4 +35,4 @@ jobs:
           file: Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/simple_accounting_flask_server:${{ github.sha }}
+          tags: ${{ secrets.DOCKER_USERNAME }}/simple_accounting_flask_server:latest
